@@ -13,3 +13,7 @@ a {
   font-weight: 600;
   color: #333;
 }
+
+canvas {
+  border: 2px solid black;
+}

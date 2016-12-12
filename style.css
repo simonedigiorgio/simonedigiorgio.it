@@ -23,5 +23,5 @@ a {
 }
 
 canvas {
-  border: 2px solid black;
+  border: 5px dotted red;
 }

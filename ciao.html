@@ -22,10 +22,15 @@
     <script>
       function test () {
         let nome = prompt("come ti chiami?")
-        if (nome.toLowerCase() == "simone" || nome.toLowerCase() == "giulia") {
+        nome = nome.toLowerCase()
+        if (nome == "simone") {
           alert("popo foera!")
-        } else {
+        } else if (nome == "giulia") {
           alert("che bel nome...")
+        } else if (nome == "giovanni") {
+          alert("che nome geniale...")
+        } else {
+          alert("puzzi")
         }
       }
     </script>

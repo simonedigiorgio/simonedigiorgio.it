@@ -24,14 +24,14 @@
     var x = 0
     var y = 0
     var w = 20
-    var h = 220
+    var h = 20
 
     setInterval(function () {
       context.clearRect(0, 0, canvas.width, canvas.height)
       context.fillRect(x, y, w, h)
 
-      x = x + 3
-      y = y + 5
+      x = x + 100
+      y = y + 30
 
       if (x > canvas.width) {
         x = 0

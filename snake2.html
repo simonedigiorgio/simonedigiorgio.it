@@ -13,28 +13,26 @@
        <script>
          var canvas = document.getElementById('canvas')
          
-         canvas.width = 200
+         canvas.width = 400
          canvas.height = 400
+         canvas.size = 10
          
          var context = canvas.getContext('2d')
          
          var x = 0
          var y = 0
          var w = 10
-         var h = 5
+         var h = 10
          
-         setInterval(function () {
-      context.clearRect(0, 0, canvas.width, canvas.height)
-      context.fillRect(x, y, w, h)
-      x = x + 1
-      y = y + 1
+         function () {
+     
       if (x > canvas.width) {
         x = 0
       }
       if (y > canvas.height) {
         y = 0
       }
-    }, 16)
+    }
          </script>
   
        </body>
